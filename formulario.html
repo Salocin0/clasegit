@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>fromulario</h1>
+    <form>
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <label for="name">nombre</label>
+        <input type="text" id="name" placeholder="ingrese su nombre" />
+        <br />
+        <label
+          >apellido
+          <input type="text" />
+        </label>
+        <br />
+        <label for="fechaNacimiento">Fecha Nacimiento</label>
+        <input type="date" id="fechaNacimiento" />
+      </fieldset>
+      <fieldset>
+        <legend>Datos de Usuario</legend>
+        <label for="nombreUsuario">Nombre Usuario</label>
+        <input type="text" id="nombreUsuario" />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <br />
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos extra</legend>
+        <select name="pais" id="">
+          <option value="arg">Argentina</option>
+          <option value="col">Colombia</option>
+          <option value="ven">Venezuela</option>
+        </select>
+
+        <input type="radio" name="opcion 1" id="opc1" />
+        <label for="opc1"> opcion 1</label>
+        <input type="radio" name="opcion 1" id="" />
+        <label for=""> opcion 2</label>
+        <input type="radio" name="opcion" id="" />
+        <label for=""> opcion 3</label>
+        <br />
+        <input type="checkbox" name="check" id="" />
+        <label for=""> opcion 1</label>
+        <input type="checkbox" name="check" id="" />
+        <label for=""> opcion 1</label>
+        <input type="checkbox" name="check" id="" />
+        <label for=""> opcion 1</label>
+      </fieldset>
+
+      <textarea id="" cols="20" rows="20"></textarea>
+      <button type="submit">enviar</button>
+    </form>
+
+    <button type="submit">enviar</button>
+
+    <details open>
+      <summary>pregunta 1</summary>
+      <p>respuesta 1</p>
+    </details>
+    <details>
+      <summary>pregunta de ejemplo</summary>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus
+        dignissimos culpa consequuntur? Aperiam nostrum ipsam, tenetur similique
+        cumque, sequi nisi at debitis dicta, cupiditate repellat amet assumenda
+        totam. Minima.
+      </p>
+    </details>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/RsSzoD-5GIU?si=7yI85mphOfMtdxe6"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
